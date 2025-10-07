@@ -592,6 +592,7 @@ const wrapIt = (config, bodyAttr, headers, title, body) => `<!doctype html>
 
     <link rel="stylesheet" href="/plugins/public/tableradh${verstring}/fontawesome/fontawesome.min.css" />
     <link rel="stylesheet" href="/plugins/public/tableradh${verstring}/tabler.min.css">
+    <link rel="stylesheet" href="/plugins/public/tableradh${verstring}/custom.css">
     ${headersInHead(headers, config?.mode === "dark")}
     <title>${text(title)}</title>
     <style>

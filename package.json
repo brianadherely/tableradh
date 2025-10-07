@@ -1,6 +1,6 @@
 {
   "name": "tableradh",
-  "version": "0.5.6-adh1.0",
+  "version": "0.5.6-adh1.1",
   "description": "tabler.io layout plugin for Adhere.ly",
   "main": "index.js",
   "scripts": {

@@ -66,3 +66,87 @@ a.navbar-brand {
 [data-bs-theme="light"] .badge.bg-danger {
   color: var(--tblr-red-fg);
 }
+:root {
+  --tblr-primary: #FF7E75;
+  --tblr-primary-rgb: 255, 126, 117;
+  --tblr-secondary: #fdfdfd;
+  --tblr-secondary-rgb: 253,253,253;
+  --tblr-orange: #fd7049;
+  --tblr-gray-100: #f8f9fa;
+  --tblr-gray-200:#e9ecef;
+  --tblr-gray-300:#dee2e6;
+  --tblr-gray-400:#ced4da;
+  --tblr-gray-500:#adb5bd;
+  --tblr-gray-600:#6c757d;
+  --tblr-gray-700:#495057;
+  --tblr-gray-800:#343a40;
+  --tblr-gray-900: #212529;
+  --tblr-body-color:#182433;
+  --tblr-link-hover-color: #FF7E75);
+  --tblr-link-hover-color-rgb: 255, 126, 117;
+  --tblr-nav-link-color: #495057;
+  --tblr-navbar-color: #495057;
+  --tblr-navbar-hover-color: #212529;
+  --tblr-nav-link-hover-color: #212529;
+  --tblr-icon-color: var(--tblr-navbar-color);
+  --tblr-link-color: var(--tabler-gray-900);
+  --tblr-link-color-rgb: 33, 37, 41;
+  --tblr-body-bg: #fff;
+  --brand-primary-1: #FF9175;
+  --brand-primary-2: #FF7E75;
+  --grad-primary: linear-gradient(135deg, #FF9175, #FF7E75);
+  --grad-secondary: linear-gradient(180deg, #FFFFFFE6 0%, #FFFFFFB3 40%, #FFFFFF00 100%);
+  --tblr-body-font-size: 1rem;
+  --tblr-body-color:433
+  --tblr-nav-tabs-link-active-color: var(--tablr-gray-900);
+}
+.navbar {
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.btn {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+/* Solid fallback for very old browsers */
+.btn-primary {
+  background-color: var(--brand-primary-1) !important;
+  border-color: var(--brand-primary-1) !important;
+}
+/* Primary Gradient background */
+.btn-primary {
+  background-image: var(--grad-primary) !important;
+  color: #fff !important;             /* keep text readable */
+}
+/* Button Hover/active states */
+.btn:hover,
+.btn:focus,
+.btn:active {
+  filter: brightness(0.95);            /* subtle darken on hover */
+}
+/* Outline Button Hover/active states */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-image: var(--grad-primary) !important;
+}
+.btn-secondary {
+  background-image: var(--grad-secondary) !important;
+  color: var(--tblr-gray-700) !important;
+  border-color: var(--tblr-gray-700) !important;
+}  
+.table thead,
+.table thead tr,
+.table thead th,
+.table thead td {
+  color: var(--tblr-gray-900);
+  background-color: #fff !important;
+}
+.accordion-item .accordion-button:not(.collapsed) {
+  color: var(--tblr-gray-900) !important;
+}
+/* Unselected (inactive) tabs: black text */
+.nav-tabs .nav-link:not(.active):not(.disabled) {
+  color: var(--tblr-gray-700) !important;
+}
